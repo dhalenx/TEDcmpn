@@ -13,12 +13,6 @@
   width: 33.33%;
   padding: 5px;
 }
- /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 500px) {
-  .column {
-    width: 100%;
-  }
-} 
 
 /* Clear floats after image containers */
 .row::after {
@@ -26,6 +20,13 @@
   clear: both;
   display: table;
 }
+
+ /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 1000px) {
+  .column {
+    width: 100%;
+  }
+} 
 
  
  /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
@@ -82,11 +83,11 @@
 }
 
 
-h1 {
+.flip-card h1 {
 	font-family: 'Nothing You Could Do', cursive;
 	color:#A79988;
 }
-p {
+.flip-card p {
 	color:#A79988;
 }
 .flip-card img {
