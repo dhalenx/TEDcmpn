@@ -75,20 +75,16 @@
   transform: rotateY(180deg);
 }
 
-.flip-text {
-	position:absolute;
-	top:25%;
-	left:50%;
-	transform:translate(-50%);
-}
-
-
 .flip-card h1 {
 	font-family: 'Nothing You Could Do', cursive;
 	color:#A79988;
 }
 .flip-card p {
 	color:#A79988;
+	position:absolute;
+	top:25%;
+	left:50%;
+	transform:translate(-50%);
 }
 .flip-card img {
 	 width:500px;
