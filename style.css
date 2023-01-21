@@ -89,3 +89,7 @@ h1 {
 p {
 	color:#A79988;
 }
+.flip-card img {
+	 width:500px;
+	 height:500px;
+}
