@@ -1,3 +1,6 @@
+/* FONTS */
+ @import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
+ 
  body {
 	background-color:#202020;
  }
@@ -5,8 +8,8 @@
  /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
   background-color: transparent;
-  width: 1000px;
-  height: 1000px;
+  width: 500px;
+  height: 500px;
  /* border: 1px solid #f1f1f1; */
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
@@ -52,4 +55,24 @@
 	position:absolute;
 	top:8px;
 	left:20%;
+}
+
+
+h1 {
+	font-family: 'Nothing You Could Do', cursive;
+}
+
+
+ /* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
