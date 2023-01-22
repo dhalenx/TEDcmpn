@@ -96,9 +96,6 @@ body {
     list-style-type: none;
     padding: 0;
 }
-.collapsible-menu li {
-	display:inline;
-}
 .collapsible-menu a {
     display:block;
     padding: 10px;
@@ -118,4 +115,7 @@ input:checked +label {
 }
 input:checked ~ .menu-content {
     max-height: 100%;
+}
+.menu-content li {
+	display:inline;
 }
