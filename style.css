@@ -96,6 +96,7 @@ body {
 .collapsible-menu ul {
     list-style-type: none;
     padding: 0;
+	display:inline;
 }
 .collapsible-menu a {
     display:block;
