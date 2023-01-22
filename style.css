@@ -8,31 +8,10 @@ body {
 }
  
 .nav h1 {
-	font-size:36px;
+	font-size:48px;
 	font-family: 'Nothing You Could Do', cursive;
 	color:#A79988;
 }
-
- /* Three image containers (use 25% for four, and 50% for two, etc) */
-/* .column {
-  float: left;
-  width: 33.33%;
-  padding: 5px;
-}
-
-/* Clear floats after image containers */
-/* .row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
- /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-/* @media screen and (max-width: 1000px) {
-  .column {
-    width: 100%;
-  }
-} 
 
  
  /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
@@ -98,3 +77,47 @@ body {
 .flip-card p {
 	color:#A79988;
 }
+
+
+
+
+.menu-content {
+    max-height: 0;
+    overflow: hidden;
+    font-family: 'Oswald', sans-serif; 
+    padding: 0 0 0 50px;
+}
+.collapsible-menu {
+    background-color: rgb(255, 255, 255);
+    padding: 0px 30px;
+    border-bottom: 3px solid #CDE700;
+    box-shadow: 1px 2px 3px rgba(0,0,0,0.2);
+}
+.collapsible-menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+.collapsible-menu a {
+    display:block;
+    padding: 10px;
+    text-decoration: none;
+}
+.collapsible-menu label {
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 56px;
+    display: block;
+    cursor: pointer;
+    background: url(menu.png) no-repeat left center;
+    padding: 10px 0 10px 50px;
+}
+input#menu {
+    display: none;
+}
+/* Toggle Effect */
+input:checked +label {
+    background-image: url(close.png);
+}
+input:checked ~ .menu-content {
+    max-height: 100%;
+}
+/*Icons made by https://www.flaticon.com/authors/cole-bemis from www.flaticon.com/ */
