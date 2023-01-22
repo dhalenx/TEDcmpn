@@ -84,7 +84,6 @@ body {
 .menu-content {
     max-height: 0;
     overflow: hidden;
-    font-family: 'Nothing You Could Do', cursive;
     padding: 0 0 0 0px;
 }
 .collapsible-menu {
@@ -103,6 +102,10 @@ body {
     padding: 10px;
     text-decoration: none;
 	color:#A79988;
+}
+.collapsible-menu a:hover {
+    text-decoration: underline;
+  text-decoration-style: dotted;
 }
 .collapsible-menu label {
     font-family: 'Nothing You Could Do', cursive;
@@ -124,4 +127,13 @@ input:checked ~ .menu-content {
 }
 .menu-content li {
 	display:inline;
+}
+
+table {
+	text-align:center;
+}
+th {
+    font-family: 'Nothing You Could Do', cursive;
+	font-size:20px;
+	font-weight:normal;
 }
