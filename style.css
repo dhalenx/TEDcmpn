@@ -96,6 +96,9 @@ body {
     list-style-type: none;
     padding: 0;
 }
+.collapsible-menu li {
+	display:inline;
+}
 .collapsible-menu a {
     display:block;
     padding: 10px;
@@ -103,7 +106,7 @@ body {
 }
 .collapsible-menu label {
     font-family: 'Nothing You Could Do', cursive;
-    font-size: 56px;
+    font-size: 24px;
     display: block;
     padding: 10px 0 10px 50px;
 }
