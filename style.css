@@ -1,12 +1,17 @@
 /* FONTS */
  @import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
  
- body {
+body {
 	background-color:#202020;
 	color:#A79988;
 	text-align:center;
- }
-
+}
+ 
+.title h1 {
+	font-size:larger;
+	font-family: 'Nothing You Could Do', cursive;
+	color:#A79988;
+}
 
  /* Three image containers (use 25% for four, and 50% for two, etc) */
 /* .column {
