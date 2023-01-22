@@ -113,12 +113,12 @@ input#menu {
 }
 /* Toggle Effect */
 input:checked +label {
-	text-align:center;
 }
 input:checked ~ .menu-content {
     max-height: 100%;
 }
 .menu-content {
+	text-align:center;
 }
 .menu-content li {
 	display:inline;
